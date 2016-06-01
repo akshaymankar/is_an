@@ -1,3 +1,1 @@
-module Kernel
-  alias_method :is_an?, :is_a?
-end
+require 'is_an/kernel'
