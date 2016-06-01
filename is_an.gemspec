@@ -1,6 +1,7 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+
 require 'is_an/version'
 
 Gem::Specification.new do |spec|
@@ -8,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.version       = IsAn::VERSION
   spec.authors       = ["Akshay Mankar"]
   spec.email         = ["itsakshaymankar@gmail.com"]
-  spec.description   = %q{This gem will help you check if something is AN Array, without being gramtically incorrect}
-  spec.summary       = %q{Everytime you had to check is something was an Array, you'd have to write [].is_a? Array. But that is obviously wrong. Your 3rd grade English teacher taught you that. So, why do you write that each and everytime you have to check if something was an array.}
+  spec.description   = %q{This gem will help you check if something is *an* Array, without being gramatically incorrect.}
+  spec.summary       = %q{Everytime you had to check is something was an Array, you'd have to write [].is_a? Array. But that is obviously wrong. Your 3rd grade English teacher taught you that. So, why do you write that each and every time you have to check if something was *an* Array?}
   spec.homepage      = "https://github.com/akshaymankar/is_an"
   spec.license       = "MIT"
 
